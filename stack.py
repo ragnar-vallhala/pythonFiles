@@ -27,11 +27,12 @@ class Stack:
         else:return False
     
     def __str__(self) -> str:
-        temp=""
-        for i in range(-1,-len(self.st),-1):
-            temp+=str(self.st[i])+" "
-        
-        return temp
-    
+        if len(self.st)!=0:
+            temp=""
+            for i in range(-1,-len(self.st),-1):
+                temp+=str(self.st[i])+" "
+
+            return temp
+        else:return "Empty"
 
 
