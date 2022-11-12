@@ -33,18 +33,5 @@ class Stack:
         
         return temp
     
-a=Stack()
-a.push(5)
-a.push(10)
-a.push(51)
-a.push(584)
-a.push(648)
-print(str(a))
-print(a.isEmpty())
-print(a.top())
-print(a.pop())
-print(a.pop())
-
-print(str(a))
 
 
